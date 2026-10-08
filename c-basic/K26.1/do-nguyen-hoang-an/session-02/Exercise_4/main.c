@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+
+int main() {
+    float r;
+
+    printf("Nhập bán kính: ");
+    scanf("%f", &r);
+
+    printf("Chu vi: %.2f\n", 2 * M_PI * r);
+    printf("Diện tích: %.2f\n", M_PI * r * r);
+    return 0;
+}
