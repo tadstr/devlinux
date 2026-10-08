@@ -1,9 +1,9 @@
-/* Bài tập: Tính tổng tiền thanh toán có VAT
- * Input: Giá hàng và tỉ lệ VAT (%)
- * Output: Tiền VAT và tổng tiền thanh toán
+/* Bài tập: Tính chu vi và diện tích hình tròn
+ * Input: Bán kính hình tròn
+ * Output: Chu vi và diện tích hình tròn
  */
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 int main() {
 	float r;

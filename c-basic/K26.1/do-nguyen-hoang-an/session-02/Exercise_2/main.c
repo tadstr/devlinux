@@ -4,7 +4,8 @@
  */
 #include <stdio.h>
 
-int main() {
+int main()
+{
 	float a, b;
 
 	printf("Nhập chiều dài: ");
@@ -12,6 +13,12 @@ int main() {
 
 	printf("Nhập chiều rộng: ");
 	scanf("%f", &b);
+
+	if (a <= 0 || b <= 0)
+	{
+		printf("Lỗi: Chiều dài và rộng phải > 0\n");
+		return 1;
+	}
 
 	printf("Diện tích: %.2f\n", a * b);
 	return 0;

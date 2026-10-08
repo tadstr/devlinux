@@ -1,6 +1,6 @@
-/* Bài tập: Chuyển đổi nhiệt độ Celsius sang Fahrenheit
- * Input: Nhiệt độ Celsius
- * Output: Nhiệt độ Fahrenheit
+/* Bài tập: Tính tiền VAT và tổng tiền thanh toán
+ * Input: Giá hàng và tỉ lệ VAT (%)
+ * Output: Tiền VAT và tổng tiền thanh toán
  */
 #include <stdio.h>
 

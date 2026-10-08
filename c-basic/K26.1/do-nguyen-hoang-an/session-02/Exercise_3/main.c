@@ -1,6 +1,6 @@
 /* Bài tập: Tính chu vi và diện tích hình tròn
- * Input: Bán kính hình tròn
- * Output: Chu vi và diện tích hình tròn
+ * Input: nhiệt độ Celsius
+ * Output: nhiệt độ Fahrenheit
  */
 #include <stdio.h>
 
