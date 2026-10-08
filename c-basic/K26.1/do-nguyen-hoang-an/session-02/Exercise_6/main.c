@@ -4,8 +4,7 @@
  */
 #include <stdio.h>
 
-int main()
-{
+int main() {
 	int brutto, tax_amount, netto;
 	short tax_rate;
 
