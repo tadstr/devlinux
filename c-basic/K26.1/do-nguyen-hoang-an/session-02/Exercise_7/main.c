@@ -1,4 +1,8 @@
-#include<stdio.h>
+/* Bài tập: Chuyển đổi nhiệt độ Celsius sang Fahrenheit
+ * Input: Nhiệt độ Celsius
+ * Output: Nhiệt độ Fahrenheit
+ */
+#include <stdio.h>
 
 int main() {
     double price, vat_amount, total_price;
