@@ -1,4 +1,4 @@
-/* Bài tập: Tính chu vi và diện tích hình tròn
+/* Bài tập: Chuyển đổi nhiệt độ từ Celsius sang Fahrenheit
  * Input: nhiệt độ Celsius
  * Output: nhiệt độ Fahrenheit
  */

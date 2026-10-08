@@ -6,14 +6,13 @@
 
 int main()
 {
-	long balance, interest, total_balance;
-	short interest_rate, years;
+	long balance, interest, total_balance, interest_rate, years;
 
 	printf("Nhập tiền gốc: ");
 	scanf("%ld", &balance);
 
 	printf("Nhập lãi suất (%%): ");
-	scanf("%hd", &interest_rate);
+	scanf("%ld", &interest_rate);
 
 	printf("Nhập số năm: ");
 	scanf("%ld", &years);
