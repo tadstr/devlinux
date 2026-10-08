@@ -1,22 +1,28 @@
-#include<stdio.h>
+/* Bài tập: Tính tiền lãi ngân hàng
+ * Input: Số tiền gốc, lãi suất hàng năm (%) và số năm gửi
+ * Output: Tiền lãi và tổng số tiền sau khi gửi
+ */
+#include <stdio.h>
 
-int main() {
-    double balance, interest, years, total_balance;
-    short interest_rate;
+int main()
+{
+	long balance, interest, total_balance;
+	short interest_rate, years;
 
-    printf("Nhập tiền gốc: ");
-    scanf("%lf", &balance);
+	printf("Nhập tiền gốc: ");
+	scanf("%ld", &balance);
 
-    printf("Nhập lãi suất (%%): ");
-    scanf("%hd", &interest_rate);
+	printf("Nhập lãi suất (%%): ");
+	scanf("%hd", &interest_rate);
 
-    printf("Nhập số năm: ");
-    scanf("%lf", &years);
+	printf("Nhập số năm: ");
+	scanf("%ld", &years);
 
-    interest = balance * interest_rate * years / 100;
-    total_balance = balance + interest;
+	// Công thức tính tiền lãi: Lãi = Số tiền gốc * Lãi suất * Số năm / 100
+	interest = balance * interest_rate * years / 100;
+	total_balance = balance + interest;
 
-    printf("Tiền lãi: %.0f\n", interest);
-    printf("Tổng số tiền: %.0f\n", total_balance);
-    return 0;
+	printf("Tiền lãi: %ld\n", interest);
+	printf("Tổng số tiền: %ld\n", total_balance);
+	return 0;
 }
